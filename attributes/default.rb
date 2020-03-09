@@ -34,7 +34,7 @@ default['rbenv']['vagrant']['system_chef_solo'] = "/opt/ruby/bin/chef-solo"
 default['rbenv']['user_installs'] = []
 
 # list of additional rubies that will be installed
-default['rbenv']['rubies']      = []
+default['rbenv']['rubies']      = [ '2.4.0']
 default['rbenv']['user_rubies'] = []
 
 # hash of gems and their list of additional gems to be installed.
